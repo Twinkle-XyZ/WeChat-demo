@@ -1,0 +1,42 @@
+.main {
+  margin: 5px;
+}
+.title {
+  height: 10vh;
+  text-align: start;
+  line-height: 10vh;
+  border-bottom: 1px solid #d7cccc;
+  margin-bottom: 1px;
+}
+.content {
+  height: 65vh;
+  max-height: 65vh;
+  overflow: auto;
+  border-bottom: 1px solid #d7cccc;
+}
+
+.send-message {
+  height: 20vh;
+  margin-top: 10px;
+}
+
+#my-msg {
+  border: none;
+}
+#other-msg {
+  border: none;
+}
+textarea:focus {
+  outline: none;
+  border: none; /* 如果你还想去除正常状态下的边框，也可以加上这一行 */
+}
+.handle {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  margin: 5px;
+}
+.send {
+  margin: 0 5px;
+  float: right;
+}
